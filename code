@@ -1,0 +1,36 @@
+public class Calculadora {
+    public double sumar(double a, double b) {
+        return a + b;
+    }
+
+    public double restar(double a, double b) {
+        return a - b;
+    }
+
+    public double multiplicar(double a, double b) {
+        return a * b;
+    }
+
+    public double dividir(double a, double b) {
+        if (b != 0.0) {
+            return a / b;
+        } else {
+            System.out.println("No se puede dividir por 0");
+            return 0.0;
+        }
+    }
+
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+            double resultadoSuma = calculadora.sumar(6, 7);
+            double resultadoResta = calculadora.restar(1, 2);
+            double resultadoProducto = calculadora.multiplicar(6, 7);
+            double resultadoDivision = calculadora.dividir(2, 0);
+
+            System.out.println("Suma: " + resultadoSuma);
+            System.out.println("Resta: " + resultadoResta);
+            System.out.println("Producto: " + resultadoProducto);
+            System.out.println("División: " + resultadoDivision);
+
+    }
+}
