@@ -9,4 +9,5 @@ Dentro del método `main`, desarrollé la siguiente lógica:
 3. Imprimí el valor de estas variables por consola para comprobar que todas las operaciones devuelven el resultado esperado.
 
 Ejecución en consola
-<img width="1366" height="691" alt="imagen" src="https://github.com/user-attachments/assets/c37afdcb-4e2a-4475-b53a-315d41a44902" />
+<img width="1366" height="723" alt="imagen" src="https://github.com/user-attachments/assets/81cad63b-15eb-4e30-8e56-e0d337b3ba49" />
+
