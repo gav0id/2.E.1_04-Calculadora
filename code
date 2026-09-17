@@ -19,18 +19,20 @@ public class Calculadora {
             return 0.0;
         }
     }
+}
 
+
+public class Main {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-            double resultadoSuma = calculadora.sumar(6, 7);
-            double resultadoResta = calculadora.restar(1, 2);
-            double resultadoProducto = calculadora.multiplicar(6, 7);
-            double resultadoDivision = calculadora.dividir(2, 0);
+        double resultadoSuma = calculadora.sumar(6, 7);
+        double resultadoResta = calculadora.restar(1, 2);
+        double resultadoProducto = calculadora.multiplicar(6, 7);
+        double resultadoDivision = calculadora.dividir(2, 0);
 
-            System.out.println("Suma: " + resultadoSuma);
-            System.out.println("Resta: " + resultadoResta);
-            System.out.println("Producto: " + resultadoProducto);
-            System.out.println("División: " + resultadoDivision);
-
+        System.out.println("Suma: " + resultadoSuma);
+        System.out.println("Resta: " + resultadoResta);
+        System.out.println("Producto: " + resultadoProducto);
+        System.out.println("División: " + resultadoDivision);
     }
 }
